@@ -67,3 +67,11 @@ Note that you cannot change the war files' names. The following war files will b
  * `editor.war`
  * `explorer.war`
  * `libs.war`
+
+= Run the Signavio Core Components = 
+
+To access the Signavio Core Components, open the following URL in your browser:
+
+`http://<yourserver>(:<port>)(/<all-in-one-war-file-name>)/p/explorer`
+
+If you use the all-in-one-war build, the name of the war file is the prefix of the URL's path. The default URL is http://localhost:8080/signaviocore/p/explorer . If you deploy the components in separate war files, the file-based backend is deployed as the ROOT project so that its URL has not path prefix (Example: http://localhost:8080/p/explorer ).
