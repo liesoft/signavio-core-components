@@ -1,6 +1,8 @@
 #summary How to install and run the Signavio Core Components.
 #labels Featured
 
+<wiki:toc max_depth="1" />
+
 = Requirements =
 
 For running the Signavio Core Components, you need the following software components:
