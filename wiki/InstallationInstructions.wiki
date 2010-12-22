@@ -23,7 +23,7 @@ If you use Eclipse for building the source code, make sure that your workspace i
 
 == Apache Tomcat Configuration ==
 
-First, you have to ensure that URL are interpreted in UTF-8 encoding. Open the file `conf/server.xml` and add the attribute `URLEncoding="UTF-8"` to the HTTP connector. Example:
+First, you have to ensure that URL are interpreted in UTF-8 encoding. Open the file `conf/server.xml` and add the attribute `URIEncoding="UTF-8"` to the HTTP connector. Example:
 {{{
 <Connector URIEncoding="UTF-8" connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
 }}}
